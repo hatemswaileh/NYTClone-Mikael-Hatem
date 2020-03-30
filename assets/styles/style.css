@@ -149,7 +149,7 @@ span.footer-line {
   margin: 20px 0 10px 0;
 }
 
-header#footer-header {
+div#footer-header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
