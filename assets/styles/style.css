@@ -219,4 +219,20 @@ ul#preference-links .footer-link {
   margin-bottom: -12px;
 }
 
+ul.footer-credits-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 7px;
+    padding: 10px 0 20px 0;
+  }
+
+ul.footer-credits-container .footer-link {
+    font-size: 11px;
+    padding: 10px;
+}
+
+
+
 /** FOOTER SECTION END */
