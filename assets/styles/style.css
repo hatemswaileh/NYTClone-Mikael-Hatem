@@ -4,6 +4,11 @@
 
 /** NAVIGATION SECTION START */
 
+nav#main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 /** NAVIGATION SECTION END */
 
 /** MAIN SECTION START */
