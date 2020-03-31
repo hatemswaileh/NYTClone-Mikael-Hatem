@@ -14,7 +14,7 @@ body {
 
 .wide-separator {
   border: 1px solid #000;
-  width: 70vw;
+  width: 100%;
   margin: 36px 0 0;
 }
 
@@ -376,20 +376,20 @@ article.ep-all-article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 70vw;
+  width: 60vw;
   padding: 0 1rem;
 }
 
 #more-section {
   display: flex;
   justify-content: space-around;
-  width: 90vw;
+  width: 80vw;
   margin: auto;
 }
 
 .more-article {
-  width: 22.5vw;
-  padding: 20px 0 20px 0;
+  width: 18.9vw;
+  padding: 0 0 20px;
 }
 
 img.more-article-img {
@@ -403,6 +403,33 @@ img.more-article-img {
   font-weight: 500;
   letter-spacing: 1px;
   margin: 0 0 10px;
+}
+
+#most-popular-list {
+  padding: 0.9em 0 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+  color: #333;
+  border-top: 1px solid #e2e2e2;
+  margin: 1em 0 0;
+}
+
+li.popular-list-item {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 15px 0;
+}
+
+li.popular-list-item:last-child {
+  border-bottom: none;
+}
+
+#most-popular {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 16px;
 }
 
 .more-article figure {
