@@ -8,6 +8,11 @@ body {
   color: #888;
 }
 
+.wide-separator {
+  border: 1px solid #000;
+  width: 70vw;
+}
+
 /* GENERAL RULES END */
 
 /** NAVIGATION SECTION START */
@@ -295,59 +300,87 @@ section#comment span.light {
 
 /** EDITOR PICKS SECTION START */
 aside.editor-picks {
-    width: 15vw;
-    font-family: nyt-cheltenham-small, georgia, "times new roman";
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    position: relative;
-    left: 25vw;
-    margin-left: -44rem;
+  width: 15vw;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+  left: 25vw;
+  margin-left: -44rem;
 }
 
 .aside-editor-picks {
-    position: sticky;
-    top: 4rem;
+  position: sticky;
+  top: 4rem;
 }
 
 .editor-picks-title {
-    padding-bottom: 12px;
-    border-bottom: 1px solid #e2e2e2;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.02em;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e2e2e2;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
 }
 
 article.ep-all-article {
-    clear: both;
+  clear: both;
 }
 
 .ep-images {
-    width: 75px;
-    float: left;
-    padding-bottom: 10px;
+  width: 75px;
+  float: left;
+  padding-bottom: 10px;
 }
 
 .ep-img-articles {
-    width: 100%;
+  width: 100%;
 }
 
 .ep-article {
-    width: calc(100% - 85px);
-    margin: 6px 0px auto 10px;
-    display: block;
-    float: left;
-    color: #3d3d3d;
+  width: calc(100% - 85px);
+  margin: 6px 0 auto 10px;
+  display: block;
+  float: left;
+  color: #3d3d3d;
 }
 
 .ep-article:hover {
-    text-decoration: underline;
-    color: #3d3d3d;
+  text-decoration: underline;
+  color: #3d3d3d;
 }
 
 /** EDITOR PICKS SECTION END */
+
+/** MORE ARTICLE SECTION START */
+
+#more-article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70vw;
+  padding: 0 1rem;
+}
+
+#more-section {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  margin: auto;
+}
+
+.more-article {
+  width: 20vw;
+  padding: 20px 0 20px 0;
+}
+
+img.more-article-img {
+  width: 100%;
+}
+
+/** MORE ARTICLE SECTION END */
 
 /** FOOTER SECTION START */
 
