@@ -92,7 +92,7 @@ main#main-content {
   padding-top: 3em;
   display: flex;
   max-width: 70vw;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: auto;
 }
