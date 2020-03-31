@@ -4,7 +4,7 @@
   "description": "New york times article page clone",
   "main": "stylelint.config.js",
   "scripts": {
-    "test": "npx stylint ."
+    "test": "npx stylelint ."
   },
   "repository": {
     "type": "git",
