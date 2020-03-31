@@ -148,8 +148,18 @@ span.date-social {
   justify-content: space-between;
 }
 
+time.article-date {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+    color: #333;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    position: relative;
+    top: 10px;
+}
+
 .social-media-bar {
-  width: 10vw;
+  width: 15vw;
 }
 
 ul.social-media-btn {
@@ -171,12 +181,36 @@ li.social-links:not(.social-square-icon) {
   width: 27px;
   height: 27px;
   text-align: center;
-  line-height: 29px;
+  line-height: 27px;
 }
 
 .social-square-icon {
-  font-size: 2em;
+    font-size: 1.3em;
+    color: #000;
 }
+
+i.material-icons.social-square-icon {
+    font-size: 32px;
+}
+
+.social-square-icon:hover {
+    color: #e2e2e2;
+    font-weight: 100;
+}
+
+a.comments-num {
+    text-decoration: none;
+}
+
+p.comments-num {
+    position: relative;
+    bottom: 27px;
+    left: 7px;
+    color: #000;
+    font-size: 0.65rem;
+    line-height: 0.75rem;
+}
+
 
 h6.author-name {
   color: #333;
