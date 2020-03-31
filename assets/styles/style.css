@@ -132,7 +132,13 @@ header#article-header {
 }
 
 section#article-content {
-  width: 40vw;
+  width: 100%;
+  align-items: center;
+  display: contents;
+}
+
+section.content-container {
+    width: 40vw;
 }
 
 #author-section {
@@ -191,6 +197,15 @@ li.social-links:not(.social-square-icon) {
 
 i.material-icons.social-square-icon {
     font-size: 32px;
+}
+
+section#iframe-section {
+  width:100%
+}
+
+iframe.the-iframe {
+  width: 90%;
+  height: 725px;
 }
 
 .social-square-icon:hover {
