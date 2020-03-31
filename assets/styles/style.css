@@ -154,7 +154,7 @@ section#article-content {
 }
 
 section.content-container {
-  width: 40vw;
+  width: 50vw;
   color: #666;
 }
 
@@ -166,7 +166,7 @@ section.content-container {
   margin: 25px 0;
 }
 
-span.date-social {
+section.date-social {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -317,7 +317,7 @@ section#comment span.light {
 
 aside.editor-picks {
   width: 15vw;
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;

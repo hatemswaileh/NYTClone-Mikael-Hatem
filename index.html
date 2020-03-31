@@ -6,33 +6,8 @@
     <title>
       Space Ripples Reveal Big Bang’s Smoking Gun - The New York Times
     </title>
-    <link
-      data-rh="true"
-      rel="shortcut icon"
-      href="./assets/favicons/favicon.ico"
-    />
-    <link
-      data-rh="true"
-      rel="apple-touch-icon"
-      href="./assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      data-rh="true"
-      rel="apple-touch-icon-precomposed"
-      sizes="144×144"
-      href="./assets/favicons/ios-ipad-144x144.png"
-    />
-    <link
-      data-rh="true"
-      rel="apple-touch-icon-precomposed"
-      sizes="114×114"
-      href="./assets/favicons/ios-iphone-114x144.png"
-    />
-    <link
-      data-rh="true"
-      rel="apple-touch-icon-precomposed"
-      href="./assets/favicons/ios-default-homescreen-57x57.png"
-    />
+    <link rel="shortcut icon" href="./assets/favicons/favicon.ico" />
+
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/css-reset.css" />
     <link
@@ -86,10 +61,12 @@
         </figure>
       </header>
       <section id="article-content">
+        <h2 class="hidden">hidden</h2>
         <section class="content-container">
           <div id="author-section">
             <h6 class="author-name">By <a href="#">Dennis Overbye</a></h6>
-            <span class="date-social">
+            <section class="date-social">
+              <h3 class="hidden">hidden only for semantic purpose</h3>
               <div class="date-bar">
                 <time class="article-date" datetime="2014-03-17T10:46:03-04:00"
                   >March 17, 2014</time
@@ -132,7 +109,7 @@
                   </li>
                 </ul>
               </div>
-            </span>
+            </section>
           </div>
           <p class="main-paragraph">
             CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
@@ -235,9 +212,11 @@
           <div class="aside-editor-picks">
             <h2 class="editor-picks-title">Editors’ Picks</h2>
             <article class="ep-all-article">
-              <a href class="ep-articles">
+              <h2 class="hidden">hidden only for semantic pupose</h2>
+              <a href="#" class="ep-articles">
                 <div class="ep-images">
                   <img
+                    alt="article image"
                     class="ep-img-articles"
                     src="./assets/images/29diary.jpg"
                   />
@@ -249,9 +228,11 @@
               </a>
             </article>
             <article class="ep-all-article">
-              <a href class="ep-articles">
+              <h2 class="hidden">hidden only for semantic pupose</h2>
+              <a href="#" class="ep-articles">
                 <div class="ep-images">
                   <img
+                    alt="article image"
                     class="ep-img-articles"
                     src="./assets/images/05mag.jpg"
                   />
@@ -263,9 +244,11 @@
               </a>
             </article>
             <article class="ep-all-article">
-              <a href class="ep-articles">
+              <h2 class="hidden">hidden only for semantic pupose</h2>
+              <a href="#" class="ep-articles">
                 <div class="ep-images">
                   <img
+                    alt="article image"
                     class="ep-img-articles"
                     src="./assets/images/23pantryrex.jpg"
                   />
@@ -278,11 +261,11 @@
           </div>
         </aside>
         <section id="iframe-section">
+          <h2 class="hidden">Hidden only for semantic reason</h2>
           <iframe
             class="the-iframe"
-            src="https://www.nytimes.com/interactive/2020/admin/100000002772592.embedded.html?"            
-            >Your browser dosn't support iframe</iframe
-          >
+            src="https://www.nytimes.com/interactive/2020/admin/100000002772592.embedded.html?"
+          ></iframe>
         </section>
         <section class="content-container">
           <p class="main-paragraph">
@@ -531,13 +514,15 @@
             of the team, <q> you wind up at inflation.</q>
           </p>
           <section id="comment">
+            <h2 class="hidden">hidden</h2>
             <span class="light">
               A version of this article appears in print on March 18, 2014,
               Section A, Page 1 of the New York edition with the headline: Space
               Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s
               Paper | Subscribe
             </span>
-            <span class="date-social">
+            <section class="date-social">
+              <h2 class="hidden">hidden only for semantic pupose</h2>
               <div class="date-bar">
                 <button type="button" id="comment-button">
                   Read 615 Comments
@@ -567,7 +552,7 @@
                   </li>
                 </ul>
               </div>
-            </span>
+            </section>
           </section>
         </section>
       </section>
@@ -588,7 +573,7 @@
               />
               <figcaption class="more-image-caption">
                 Harvard-Smithsonian Center for Astrophysics
-              </caption>
+              </figcaption>
             </figure>
             <h2 class="more-article-title">
               Infinite Visions Were Hiding in the First Black Hole Image’s Rings
@@ -698,16 +683,16 @@
         <span class="wide-separator"></span>
         <h3 class="sub-heading">Editor's Picks</h3>
         <div class="more-article">
-          <figure>
           <a href="#">
-            <img
-              class="more-article-img"
-              src="./assets/images/05mag.jpg"
-              alt="more article image"
-            />
-            <figcaption class="more-image-caption">
-              Gerald Herbert/Associated Press
-            </figcaption>
+            <figure>
+              <img
+                class="more-article-img"
+                src="./assets/images/05mag.jpg"
+                alt="more article image"
+              />
+              <figcaption class="more-image-caption">
+                Gerald Herbert/Associated Press
+              </figcaption>
             </figure>
             <h2 class="more-article-title">
               David Chang Isn’t Sure the Restaurant Industry Will Survive
@@ -721,14 +706,14 @@
         <div class="more-article">
           <a href="#">
             <figure>
-            <img
-              class="more-article-img"
-              src="./assets/images/23pantryrex.jpg"
-              alt="more article image"
-            />
-            <figcaption class="more-image-caption">
-              Franchesca Ramsey
-            </figcaption>
+              <img
+                class="more-article-img"
+                src="./assets/images/23pantryrex.jpg"
+                alt="more article image"
+              />
+              <figcaption class="more-image-caption">
+                Franchesca Ramsey
+              </figcaption>
             </figure>
             <h2 class="more-article-title">
               Why Would Anyone Want to Visit Chernobyl?
@@ -740,16 +725,16 @@
         </div>
         <div class="more-article">
           <a href="#">
-            <figcaption>
-            <img
-              class="more-article-img"
-              src="./assets/images/29diary.jpg"
-              alt="more article image"
-            />
-            <figcaption class="more-image-caption">
-              Mamadi Doumbouya for The New York Times
-            </figcaption>
-            </fifigure>
+            <figure>
+              <img
+                class="more-article-img"
+                src="./assets/images/29diary.jpg"
+                alt="more article image"
+              />
+              <figcaption class="more-image-caption">
+                Mamadi Doumbouya for The New York Times
+              </figcaption>
+            </figure>
             <h2 class="more-article-title">
               Infinite Visions Were Hiding in the First Black Hole Image’s Rings
             </h2>
@@ -760,6 +745,7 @@
         </div>
       </section>
       <section id="most-popular">
+        <h3 class="sub-heading">Most Popular</h3>
         <ul>
           <li>Stress Baking More Than Usual?</li>
           <li>Opinion: It’s Time to Make Your Own Face Mask</li>
