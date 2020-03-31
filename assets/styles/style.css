@@ -22,6 +22,7 @@ nav#main-nav {
   top: 0;
   align-items: center;
   background-color: #fff;
+  z-index: 999999;
 }
 
 img.nav-logo {
@@ -89,10 +90,9 @@ a.nav-go-home {
 /** MAIN SECTION START */
 
 main#main-content {
-  padding-top: 3em;
   display: flex;
   max-width: 70vw;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
 }
@@ -129,6 +129,40 @@ header#article-header {
 #article-image {
   width: 100%;
   align-items: center;
+}
+
+section#article-content {
+    width: 50vw;
+}
+
+span.date-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-bar {
+    width: 10vw;
+}
+
+ul.social-media-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links a,
+.social-bookmark a,
+.social-bubble a {
+    color: #000;
+}
+
+
+li.social-links {
+    background-color: #e2e2e2;
+    border-radius: 180%;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /** MAIN SECTION END */
