@@ -392,8 +392,8 @@ article.ep-all-article {
 }
 
 section.more-article-grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .more-article {
