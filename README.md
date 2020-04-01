@@ -2,7 +2,7 @@
 
 New York Times Article Page Clone
 
-![screenshot](./assets/imagesscreenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 HTML & CSS New York Times Article Page Clone
 
