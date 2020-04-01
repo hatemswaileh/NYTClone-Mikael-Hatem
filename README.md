@@ -13,7 +13,7 @@ HTML & CSS New York Times Article Page Clone
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://rawcdn.githack.com/hatemswaileh/NYTClone-Mikael-Hatem/425b4d9e890f128f351806f752c6b34cbae57bbe/index.html)
 
 
 ## Getting Started
