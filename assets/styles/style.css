@@ -402,7 +402,6 @@ img.more-article-img {
 
 .more-article-title {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 1.4rem;
   color: #121212;
   font-weight: 500;
   letter-spacing: 1px;
@@ -611,29 +610,29 @@ ul.footer-credits-container {
 /** FOOTER FIXED BAR SECTION START */
 
 section#footer-fixed-bar {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    justify-content: center;
-    border-top: 1px solid #333;
-    width: 100%;
-    background-color: #fff;
-    height: 55px;
-    cursor: pointer;
-    z-index: 999;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  border-top: 1px solid #333;
+  width: 100%;
+  background-color: #fff;
+  height: 55px;
+  cursor: pointer;
+  z-index: 999;
 }
 
 .footer-fixed {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 p.footer-fixed-text {
-    margin-left: 38vw;
-    font-size: 15px;
-    line-height: 17px;
+  margin-left: 38vw;
+  font-size: 15px;
+  line-height: 17px;
 }
 
 span.-footer-fixed-expand {
@@ -642,14 +641,14 @@ span.-footer-fixed-expand {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   letter-spacing: 0.24px;
 }
 
 i.fa.fa-angle-up {
-    margin-left: 2vw;
-    font-size: 20px;
-    font-weight: 500;
+  margin-left: 2vw;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /** FOOTER FIXED BAR SECTION START */

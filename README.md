@@ -2,7 +2,7 @@
 
 New York Times Article Page Clone
 
-![screenshot](./screenshot.png)
+![screenshot](./assets/imagesscreenshot.png)
 
 HTML & CSS New York Times Article Page Clone
 
@@ -15,20 +15,21 @@ HTML & CSS New York Times Article Page Clone
 
 [Live Demo Link](https://rawcdn.githack.com/hatemswaileh/NYTClone-Mikael-Hatem/425b4d9e890f128f351806f752c6b34cbae57bbe/index.html)
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Pre-Requisites
+
 localhost or a web hosting
 
 ### Setup
+
 Just download the files & upload it to your folder
 
 ### Usage
-New York Times Article Page Clone (Layout)
 
+New York Times Article Page Clone (Layout)
 
 ## Authors
 
