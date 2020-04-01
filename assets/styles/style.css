@@ -24,6 +24,10 @@ body {
   font-size: 19px;
 }
 
+.url-links {
+  color: #326891;
+}
+
 /* GENERAL RULES END */
 
 /** NAVIGATION SECTION START */
@@ -222,8 +226,8 @@ section#iframe-section {
 
 iframe.the-iframe {
   width: 90%;
-  height: 725px;
-  margin: 40px 0;
+  height: 755px;
+  margin: 76px 0 0 91px;
 }
 
 .social-square-icon:hover {
@@ -295,7 +299,7 @@ iframe[src*="ZlfIVEy_YOA"] {
   letter-spacing: 0.05em;
   line-height: 1.5rem;
   text-transform: uppercase;
-  border: 1px solid #567b95;
+  border: 1px solid;
 }
 
 #comment-button:hover {
@@ -403,6 +407,8 @@ img.more-article-img {
   font-weight: 500;
   letter-spacing: 1px;
   margin: 0 0 10px;
+  font-size: 1.125rem;
+  line-height: 22px;
 }
 
 #most-popular-list {
@@ -417,8 +423,17 @@ img.more-article-img {
 }
 
 li.popular-list-item {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  font-weight: 500;
   border-bottom: 1px solid #e2e2e2;
   padding: 15px 0;
+  cursor: pointer;
+}
+
+li.popular-list-item:hover {
+  color: #666;
 }
 
 li.popular-list-item:last-child {
@@ -460,7 +475,7 @@ footer#main-footer {
   display: flex;
   flex-direction: column;
   max-width: 85vw;
-  margin: 0 auto;
+  margin: 0 auto 55px auto;
   padding: 0 3px 9px;
 }
 
@@ -592,3 +607,49 @@ ul.footer-credits-container {
 }
 
 /** FOOTER SECTION END */
+
+/** FOOTER FIXED BAR SECTION START */
+
+section#footer-fixed-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    border-top: 1px solid #333;
+    width: 100%;
+    background-color: #fff;
+    height: 55px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.footer-fixed {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+p.footer-fixed-text {
+    margin-left: 38vw;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+span.-footer-fixed-expand {
+  margin-right: 12vw;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: nyt-franklin;
+  letter-spacing: 0.24px;
+}
+
+i.fa.fa-angle-up {
+    margin-left: 2vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/** FOOTER FIXED BAR SECTION START */
