@@ -226,8 +226,9 @@ section#iframe-section {
 
 iframe.the-iframe {
   width: 90%;
-  height: 755px;
+  height: 770px;
   margin: 76px 0 0 91px;
+  overflow: hidden;
 }
 
 .social-square-icon:hover {
