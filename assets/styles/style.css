@@ -111,16 +111,17 @@ a.nav-go-home {
 
 main#main-content {
   display: flex;
-  max-width: 70vw;
-  justify-content: space-around;
+  max-width: 75vw;
+  margin: auto 0 auto auto;
   flex-wrap: wrap;
-  margin: auto;
+  justify-content: space-evenly;
 }
 
 header#article-header {
   display: flex;
+  width: 70vw;
   flex-direction: column;
-  margin: 45px 0 0;
+  margin: 74px auto 0;
 }
 
 #article-header h1 {
@@ -152,13 +153,13 @@ header#article-header {
 }
 
 section#article-content {
-  width: 100%;
-  align-items: center;
-  display: contents;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
 }
 
 section.content-container {
-  width: 50vw;
+  width: 64%;
   color: #666;
 }
 
@@ -321,19 +322,18 @@ section#comment span.light {
 /** EDITOR PICKS SECTION START */
 
 aside.editor-picks {
-  width: 15vw;
   font-family: nyt-cheltenham-small, georgia, arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  display: flex;
   position: relative;
-  left: 25vw;
-  margin-left: -44rem;
-}
-
-.aside-editor-picks {
-  position: sticky;
-  top: 4rem;
+  width: 25%;
+  top: -159rem;
+  right: 0;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .editor-picks-title {
