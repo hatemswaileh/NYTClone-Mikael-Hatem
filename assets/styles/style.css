@@ -333,6 +333,13 @@ section#theory-section {
   color: #666;
 }
 
+.theory-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
 .theory-article p {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 17px;
