@@ -221,16 +221,6 @@ i.material-icons.social-square-icon {
   font-size: 32px;
 }
 
-section#iframe-section {
-  width: 100%;
-}
-
-iframe.the-iframe {
-  width: 90%;
-  height: 770px;
-  margin: 76px 0 0 91px;
-  overflow: hidden;
-}
 
 .social-square-icon:hover {
   color: #e2e2e2;
@@ -280,11 +270,6 @@ img[src*="jambo"] {
   width: 100%;
 }
 
-iframe[src*="ZlfIVEy_YOA"] {
-  width: 100%;
-  height: 350px;
-}
-
 .figure {
   margin: 43px auto;
 }
@@ -318,6 +303,35 @@ section#comment span.light {
 }
 
 /** MAIN SECTION END */
+
+/** Theory Section Start */
+
+section#theory-section {
+    position: relative;
+    right: 170px;
+    width: 67vw;
+}
+
+.theory-article {
+    padding: 20px 5px 30px 5px;
+}
+
+.theory-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
+img.theory-img {
+    width: 100%;
+}
+
+p.theory-footer {
+    margin-bottom: 50px;
+}
+
+/** Theory Section End */
 
 /** EDITOR PICKS SECTION START */
 
