@@ -334,10 +334,10 @@ section#theory-section {
 }
 
 .theory-container {
-    display: grid;
-    position: relative;
-    grid-template-columns: 25% 25% 25% 25%;
-    width: 100%;
+  display: grid;
+  position: relative;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
 }
 
 .theory-article p {
