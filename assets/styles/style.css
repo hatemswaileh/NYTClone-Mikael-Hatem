@@ -2,6 +2,7 @@
 
 body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+  overflow-x: hidden;
 }
 
 iframe {
@@ -312,9 +313,9 @@ section#comment span.light {
 
 section#theory-section {
   position: relative;
-  right: 170px;
+  right: 200px;
   font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
-  width: 67vw;
+  width: 74vw;
 }
 
 #theory-section h2:first-child {
