@@ -1,8 +1,13 @@
 /* GENERAL RULES START */
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  overflow-x: hidden;
 }
 
 iframe {
@@ -125,7 +130,7 @@ main#main-content {
 
 header#article-header {
   display: flex;
-  width: 70vw;
+  max-width: 70vw;
   flex-direction: column;
   margin: 74px auto 0;
 }
@@ -193,7 +198,7 @@ time.article-date {
 }
 
 .social-media-bar {
-  width: 15vw;
+  max-width: 15vw;
 }
 
 ul.social-media-btn {
@@ -315,7 +320,7 @@ section#theory-section {
   position: relative;
   right: 200px;
   font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
-  width: 74vw;
+  max-width: 74vw;
 }
 
 #theory-section h2:first-child {
@@ -430,14 +435,14 @@ article.ep-all-article {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 60vw;
+  max-width: 60vw;
   padding: 0 1rem;
 }
 
 #more-section {
   display: flex;
   justify-content: space-around;
-  width: 80vw;
+  max-width: 80vw;
   margin: 5px auto 5px auto;
 }
 
@@ -447,7 +452,7 @@ section.more-article-grid {
 }
 
 .more-article {
-  width: 18.9vw;
+  max-width: 18.9vw;
   padding: 0 10px 20px;
 }
 
@@ -495,7 +500,7 @@ li.popular-list-item:last-child {
 }
 
 #most-popular {
-  width: 20vw;
+  max-width: 20vw;
   display: flex;
   flex-direction: column;
   padding: 0 0 0 16px;
