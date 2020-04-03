@@ -1,2 +1,61 @@
-# NYTClone-Mikael-Hatem
-Cloning  New York Times Article Page - Original Page: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
+# Project Name
+
+New York Times Article Page Clone
+
+![screenshot](./assets/images/screenshot.png)
+
+HTML & CSS New York Times Article Page Clone
+
+## Built With
+
+- HTML,
+- CSS
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/hatemswaileh/NYTClone-Mikael-Hatem/95fe64a7b3212337a4c6ca0ef755f180aedca1b5/index.html)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Pre-Requisites
+
+localhost or a web hosting
+
+### Setup
+
+Just download the files & upload it to your folder
+
+### Usage
+
+New York Times Article Page Clone (Layout)
+
+## Authors
+
+👤 **Hatem Sweileh**
+
+- Github: [@hatemswaileh](https://github.com/hatemswaileh/)
+- Twitter: [@hatemswaileh](https://twitter.com/hatemswaileh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/HatemSwaileh)
+
+👤 **Mikael Araya**
+
+- Github: [@Mikearaya](https://github.com/Mikearaya)
+- Twitter: [@mikearaya12](https://twitter.com/mikearaya12)
+- Linkedin: [linkedin](https://linkedin.com/in/mikael-araya)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 Acknowledgments
+
+- If you are applying issues please just use HTML & CSS
+- Please keep in mind that this project is not fully functional, it's just a Clone for New York Times Article Page
